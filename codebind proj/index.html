@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOOKFAIR</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWVzdGhldGljJTIwYm9va3xlbnwwfHwwfHw%3D&w=1000&q=80");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    .bookhead {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .bookhead img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .bookhead-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .bookhead-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+    .map {
+       display: flex;
+      justify-content: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+    .date{
+        display: flex;
+      justify-content: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">BOOKFAIR</a>
+    <nav class="nav-items">
+      <a href="C:\Users\Afra Fathima M A\Desktop\paper and proj\codebind proj\index.html">Home</a>
+      <a href="C:\Users\Afra Fathima M A\Desktop\paper and proj\codebind proj\intprojregform.html">Free Registration</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>BOOK FAIR IN CHENNAI</h1>
+      <p>Chennai International Book Fair 2023</p>
+    </div>
+    <div class="bookhead">
+        <div class="bookhead-text">
+          <h2>"Welcome your New Year with a good habit of reading books"</h2>
+          <p><i><b><h3>The annual Chennai Book Fair, also known as the Madras Book Fair, takes place in Chennai for around three weeks in the month of January, along with the New Year and Pongal celebration. The Chennai Book Fair is considered to be the second largest book fair in the country. This expo features participation from all significant Tamil and English publishing firms and is regarded as a significant occasion in Chennai's cultural calendar. Every year, the book fair attracts more than 600 stalls of books piled up for the exhibition. Visitors come from all over the state to this book fair to purchase their favourite books and to interact with the best-loved writers. During this festival, several renowned publishers are selected and awarded with mementoes along with several hosts talks, competitions, and discussions. To cater to the needs of hungry attendees, there are food and drink kiosks in addition to book stalls. Every year, lakhs of spectators visit the venue for this Chennai Book Fair and cherish the art of writing books by supporting the authors and publications.</h3></b></i></p>
+        </div>
+        <img src="https://i.pinimg.com/736x/3f/53/1b/3f531b36c75c3b6096e96b83153b2e05.jpg" alt="books">
+      </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading"><b>Children</b></p>
+        <p class="work-text"><h3>Lift the flap, Sound books, board books, Encyclopedia, Touch & Feel books, Learning books etc.</h3></p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading"><b>Fiction</b></p>
+        <p class="work-text"><h3>Thriller, Crime, History, Romance, Classics, Fantasy, Young adult etc.</h3></p>
+      </div>
+      <div class="work">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading"><b>Non-Fiction</b></p>
+        <p class="work-text"><h3>Self Help, Autobiography, Business, Health & Fitness, Travel, Sports etc.</h3></p>
+      </div>
+    </div>
+    <div class="map">
+        <p><b><h2>How to reach:<br> Kathipara Urban Square, Guindy <br></h2></b></p>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4482777080084!2d80.20182941403604!3d13.007100590832598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267292c15b7bb%3A0xd37376b7f62e2ae2!2sKathipara%20Urban%20Square!5e0!3m2!1sen!2sin!4v1673333613690!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="date">
+        <p>
+            <b><h2>Date and time:</h2><br><h3>Jan 1,2023 - Jan 20,2023 <br> 9am to 12pm <br> 1pm to 4pm <br> 5pm to 8pm</h3> </b>
+
+        </p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; 2023 Book Fair</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
